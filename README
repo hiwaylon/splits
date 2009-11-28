@@ -1,0 +1,19 @@
+splits
+2009-11-28 Waylon Calabrese
+
+Compute running splits for training.
+
+Usage: ./findsplits <minutes:seconds>
+Example: 
+
+./findsplits 6:06
+1600m pace 366s
+	800m pace 183s
+	400m pace 91.5s
+	100m pace 22.875s
+	
+Built on Ubuntu Linux with C++, stl, cppunit, cmake and gcc.
+
+Word.
+
+w
