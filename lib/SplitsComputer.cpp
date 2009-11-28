@@ -29,3 +29,9 @@ float SplitsComputer::getFourHundredMeterPaceInSeconds() const
 {
 	return _milePaceInSeconds * 0.25f;
 }
+
+float SplitsComputer::getOneHundredMeterPaceInSeconds() const
+{
+	return _milePaceInSeconds * 0.0625f;
+}
+

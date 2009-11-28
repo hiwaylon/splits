@@ -6,7 +6,8 @@ public:
 	int getMilePaceInSeconds() const;
 	float getEightHundredMeterPaceInSeconds() const;
 	float getFourHundredMeterPaceInSeconds() const;
-	
+	float getOneHundredMeterPaceInSeconds() const;
+
 private:
 	int _milePaceInSeconds;
 };

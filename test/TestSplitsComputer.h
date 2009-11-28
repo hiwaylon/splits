@@ -10,4 +10,5 @@ public:
 	void testConstruction();
 	void testEightHundredMeterSplit();
 	void testFourHundredMeterSplit();
+	void testOneHundredMeterSplit();
 };
