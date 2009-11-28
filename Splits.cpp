@@ -1,7 +1,6 @@
 #include "lib/SplitsComputer.h"
 
 #include <iostream>
-#include <sstream>
 
 int main(int argc, char ** argv)
 {
@@ -12,8 +11,8 @@ int main(int argc, char ** argv)
 		return 1;
 	}
 
-	std::string milePaceString(argv[1]);
-	SplitsComputer computer(milePaceString);	
+	std::string const milePaceString(argv[1]);
+	SplitsComputer const computer(milePaceString);	
 
 	std::cout << "1600m pace " << computer.getMilePaceInSeconds() << "s" << std::endl;
 	std::cout << "\t800m pace " << computer.getEightHundredMeterPaceInSeconds() << "s" << std::endl;

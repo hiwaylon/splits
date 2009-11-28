@@ -1,4 +1,5 @@
 #include "TestSplitsComputer.h"
+
 #include "../lib/SplitsComputer.h"
 
 CPPUNIT_TEST_SUITE_REGISTRATION(TestSplitsComputer);

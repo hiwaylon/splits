@@ -9,5 +9,9 @@ public:
 	float getOneHundredMeterPaceInSeconds() const;
 
 private:
+	SplitsComputer(SplitsComputer const &);
+	SplitsComputer const &operator=(SplitsComputer const &);
+	
+private:
 	int _milePaceInSeconds;
 };
